@@ -1,0 +1,19 @@
+{
+  "name": "eboot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/olivierlesnicki/eboot",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node ./lib/register.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "raw-body": "^2.5.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
