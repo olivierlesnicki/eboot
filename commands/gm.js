@@ -5,7 +5,7 @@ export const command = {
   description: "GM!",
 };
 
-export default function commandHandler(interaction) {
+export default async function commandHandler(interaction) {
   return {
     type: 4,
     content: "GM!",
