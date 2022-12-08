@@ -8,6 +8,8 @@ export const command = {
 export default async function commandHandler(interaction) {
   return {
     type: 4,
-    content: "GM!",
+    data: {
+      content: "GM!",
+    },
   };
 }
